@@ -1,0 +1,145 @@
+    .title {
+         text-align: center;
+         text-shadow:
+               -2px -2px 0 #000000,
+                2px -2px 0 #000000,
+               -2px 2px 0 #000000,
+                2px 2px 0 #000000,
+               -3px 0 0 #000000,
+                3px 0 0 #000000,
+                0 3px 0 #000000,
+                0 -3px 0 #000000;;
+         color: white;
+         padding: 10px;
+            }
+
+    .game {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        width: 100vw;
+        justify-content: center;
+        align-items: center;
+    }
+    .title
+    {
+        position: absolute;
+        top: 0;
+        font-size: 2rem;
+        z-index: 2;
+    }
+
+    .eredmenyek
+    {
+        display: flex;
+        width: 35vw;
+        justify-content: space-between;
+        position: absolute;
+        top: 120px;
+        z-index: 1;
+        text-shadow:
+                -2px -2px 0 #000000,
+                2px -2px 0 #000000,
+                -2px 2px 0 #000000,
+                2px 2px 0 #000000,
+                -3px 0 0 #000000,
+                3px 0 0 #000000,
+                0 3px 0 #000000,
+                0 -3px 0 #000000;;
+        color: white;
+        padding: 10px;
+
+    }
+
+    .j-count,.sz-count,.d-count{
+        text-align: center;
+        font-size: 1.5rem;
+        margin-top: 1rem;
+    }
+
+    .lehetosegek{
+        display: flex;
+        width: 70vw;
+        justify-content: space-evenly;
+        margin-top: 1rem;
+    }
+
+    .kő{
+        background: url("Images/rock.png");
+        cursor: pointer;
+        border-radius: 20%;
+        background-size: cover;
+        width: 150px;
+        height: 200px;
+        color: transparent;
+    }
+
+
+    .papír{
+        background: url("Images/paper.png");
+        cursor: pointer;
+        border-radius: 20%;
+        background-size: cover;
+        width: 150px;
+        height: 200px;
+        color: transparent;
+    }
+
+
+
+    .olló{
+        background: url("Images/scissors.png");
+        cursor: pointer;
+        border-radius: 20%;
+        background-size: cover;
+        width: 150px;
+        height: 200px;
+        color: transparent;
+    }
+
+    .lepes{
+        font-size: 2rem;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 10rem;
+    }
+    .maradeklepes
+    {
+        margin-bottom: 3rem;
+    }
+
+    .ujra {
+        display: none;
+        margin-top: 2rem;
+        padding: 1rem;
+        background: green;
+        outline: none;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        color: white;
+    }
+
+    .vegeredmeny{
+        margin-top: 20px;
+        font-size: 1.2rem;
+    }
+
+    body {
+        background-image: url("Images/solid-yellow-vw6sj7g3td6isrek.jpg");
+    }
+
+    @media screen and (max-width: 612px)
+    {
+        .title{
+            text-align: center;
+        }
+        .eredmenyek{
+            position: absolute;
+            top: 200px;
+            width: 100vw;
+        }
+        .lehetosegek{
+            width: 100vw;
+        }
+    }
