@@ -1,2 +1,2 @@
 # Web
-Webes megoldás nevű tárgy alatt készített php, javascript, html, css nyelvű kódok és projektmunkák
+Webes megoldások nevű tárgy alatt készített php, javascript, html, css nyelvű kódok és projektmunkák
